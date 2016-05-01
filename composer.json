@@ -1,0 +1,15 @@
+{
+    "name": "niisan-tokyo/fluent-psr-logger",
+    "description": "The logger implemented PSR-3 logger interface.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "psr/log": "^1.0",
+        "fluent/logger": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "NiisanTokyo\\FluentPsrLogger\\": "src/"
+        }
+    }
+}
