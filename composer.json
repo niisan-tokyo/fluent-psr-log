@@ -2,7 +2,7 @@
     "name": "niisan-tokyo/fluent-psr-logger",
     "version": "0.1",
     "description": "The logger implemented PSR-3 logger interface.",
-    "keywords": "logging fluentd prs",
+    "keywords": ["logging", "fluentd", "prs"],
     "type": "library",
     "license": "MIT",
     "require": {
