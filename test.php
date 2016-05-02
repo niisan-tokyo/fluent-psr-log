@@ -4,4 +4,5 @@ require 'vendor/autoload.php';
 
 $logger = new NiisanTokyo\FluentPsrLogger\Logger('localhost');
 
-$logger->notice('テスト');
+$logger->info('', ['fluit' => 'apple', 'pet' => 'dog']);
+$logger->debug('this is debug log');
